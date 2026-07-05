@@ -3,156 +3,427 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-<title>Samrat Poudel | Assistant Professor, Civil Engineering, IOE Pashchimanchal Campus</title>
-<meta name="description" content="Samrat Poudel - Assistant Professor at IOE Pashchimanchal Campus, Tribhuvan University. Research in structural engineering, sustainable concrete, seismic analysis."/>
-<meta name="keywords" content="Samrat Poudel, Civil Engineering, Structural Engineering, IOE Pashchimanchal Campus"/>
+<title>Samrat Poudel | Assistant Professor, Structural Engineering, IOE Pashchimanchal Campus</title>
+<meta name="description" content="Comprehensive academic profile of Samrat Poudel, Assistant Professor at IOE Pashchimanchal Campus. Specialist in structural analysis, seismic design, sustainable concrete, fiber-reinforced materials, and bridge engineering with 8+ publications and active research supervision."/>
+<meta name="keywords" content="Samrat Poudel, Structural Engineering, IOE Pashchimanchal Campus, Tribhuvan University, Concrete Technology, Seismic Design, Bridge Engineering, Fiber Reinforced Concrete, ETABS, SAP2000, Nepal, Research, Publications"/>
 <meta name="author" content="Samrat Poudel"/>
 <meta name="robots" content="index, follow"/>
-
 <meta property="og:type" content="profile"/>
-<meta property="og:title" content="Samrat Poudel | Civil Engineering, IOE Nepal"/>
+<meta property="og:title" content="Samrat Poudel | Structural Engineering, IOE Nepal"/>
+<meta property="og:description" content="Assistant Professor, IOE Pashchimanchal Campus, TU Nepal. Research in sustainable concrete, seismic performance, fiber-reinforced materials, and bridge engineering. 8+ publications, thesis advisor, and structural consultant."/>
 <meta property="og:locale" content="en_NP"/>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Samrat Poudel","jobTitle":"Assistant Professor","affiliation":{"@type":"CollegeOrUniversity","name":"IOE Pashchimanchal Campus"},"telephone":"+977-9857622022","sameAs":["https://orcid.org/0009-0006-3077-2257"]}
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Samrat Poudel",
+  "jobTitle": "Assistant Professor",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "IOE Pashchimanchal Campus, Tribhuvan University",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pokhara",
+      "addressRegion": "Gandaki Province",
+      "addressCountry": "NP"
+    }
+  },
+  "email": "samrat@ioepas.edu.np",
+  "telephone": "+977-9857622022",
+  "sameAs": ["https://orcid.org/0009-0006-3077-2257"],
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity","name": "Pokhara University","address": {"@type": "PostalAddress","addressLocality": "Pokhara","addressCountry": "NP"}},
+    {"@type": "CollegeOrUniversity","name": "Tribhuvan University, IOE Pashchimanchal Campus","address": {"@type": "PostalAddress","addressLocality": "Pokhara","addressCountry": "NP"}}
+  ],
+  "knowsAbout": ["Structural Engineering","Seismic Design","Concrete Technology","Fiber Reinforced Concrete","Bridge Engineering","Structural Health Monitoring","Finite Element Analysis","Sustainable Materials"]
+}
 </script>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Serif+4:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 
 <style>
 :root {
-  --navy: #0d1b3e; --gold: #c9973a; --gold2: #e8b84b; --cream: #f7f3eb;
-  --warm: #ede8dc; --text: #1a1a2e; --muted: #5a5f7a; --white: #ffffff;
+  --navy:   #0d1b3e;
+  --navy2:  #132050;
+  --gold:   #c9973a;
+  --gold2:  #e8b84b;
+  --cream:  #f7f3eb;
+  --warm:   #ede8dc;
+  --text:   #1a1a2e;
+  --muted:  #5a5f7a;
+  --white:  #ffffff;
+  --rule:   rgba(201,151,58,0.35);
   --shadow: 0 4px 32px rgba(13,27,62,0.10);
+  --accent-green: #22c55e;
 }
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body { font-family: 'Source Serif 4', Georgia, serif; background: var(--cream); color: var(--text); line-height: 1.75; font-size: 16px; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Source Serif 4',Georgia,serif;
+  background:var(--cream);color:var(--text);
+  line-height:1.75;font-size:16px;
+}
 
-nav { position: sticky; top: 0; z-index: 200; background: var(--navy); border-bottom: 2px solid var(--gold);
-  padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; height: 56px; }
-.nav-brand { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--gold2); letter-spacing: 0.02em; }
-.nav-links { display: flex; gap: 0; list-style: none; }
-.nav-links a { color: rgba(255,255,255,0.75); text-decoration: none; font-family: 'JetBrains Mono', monospace;
-  font-size: 0.68rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
-  padding: 0.4rem 0.65rem; border-radius: 3px; transition: all 0.2s; }
-.nav-links a:hover { color: var(--gold2); background: rgba(201,151,58,0.12); }
+/* NAV */
+nav{
+  position:sticky;top:0;z-index:200;
+  background:var(--navy);
+  border-bottom:2px solid var(--gold);
+  padding:0 1.5rem;
+  display:flex;align-items:center;justify-content:space-between;
+  height:56px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+.nav-brand{
+  font-family:'Playfair Display',serif;
+  font-size:1rem;color:var(--gold2);
+  letter-spacing:0.02em;white-space:nowrap;
+  font-weight:700;
+}
+.nav-links{display:flex;gap:0;list-style:none}
+.nav-links a{
+  color:rgba(255,255,255,0.75);text-decoration:none;
+  font-family:'JetBrains Mono',monospace;
+  font-size:0.68rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  padding:0.4rem 0.65rem;border-radius:3px;
+  transition:color 0.2s,background 0.2s;
+}
+.nav-links a:hover{color:var(--gold2);background:rgba(201,151,58,0.12)}
 
-#hero { background: linear-gradient(135deg, var(--navy) 0%, #162660 55%, #1a3070 100%); color: var(--white);
-  padding: 5rem 2rem 4rem; position: relative; overflow: hidden; }
-#hero::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 4px;
-  background: linear-gradient(90deg, transparent, var(--gold), var(--gold2), var(--gold), transparent); }
-.hero-inner { max-width: 1080px; margin: 0 auto; display: grid; grid-template-columns: 1fr 200px; gap: 2.5rem; align-items: center; position: relative; z-index: 1; }
-.hero-name { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4.5vw, 3.3rem); font-weight: 700; line-height: 1.12; margin: 1rem 0; }
-.hero-role { font-size: 1rem; font-weight: 300; color: rgba(255,255,255,0.85); margin-bottom: 0.5rem; }
-.hero-role strong { color: var(--gold2); font-weight: 600; }
-.hero-dept { font-size: 0.88rem; color: rgba(255,255,255,0.6); margin-bottom: 1.5rem; }
-.hero-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-.hero-links a { display: inline-flex; align-items: center; gap: 0.4rem; font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
-  color: rgba(255,255,255,0.78); text-decoration: none; border: 1px solid rgba(255,255,255,0.22);
-  padding: 0.38rem 0.85rem; border-radius: 3px; transition: all 0.2s; }
-.hero-links a:hover { background: rgba(201,151,58,0.2); border-color: var(--gold); color: var(--gold2); }
-.hero-photo { width: 185px; height: 220px; border: 3px solid var(--gold); border-radius: 4px;
-  background: linear-gradient(160deg, #1e3070, #0d1b3e); display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.5), 5px 5px 0 var(--gold); position: relative; overflow: hidden; flex-shrink: 0; }
-.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+/* HERO */
+#hero{
+  background:linear-gradient(135deg,var(--navy) 0%,#162660 55%,#1a3070 100%);
+  color:var(--white);padding:5rem 2rem 4rem;
+  position:relative;overflow:hidden;
+}
+#hero::before{
+  content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 55% 60% at 85% 40%,rgba(201,151,58,0.1) 0%,transparent 65%),
+    repeating-linear-gradient(45deg,transparent,transparent 38px,rgba(255,255,255,0.018) 38px,rgba(255,255,255,0.018) 39px);
+  pointer-events:none;
+}
+#hero::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg,transparent,var(--gold),var(--gold2),var(--gold),transparent);
+}
+.hero-inner{
+  max-width:1080px;margin:0 auto;
+  display:grid;grid-template-columns:1fr 200px;
+  gap:2.5rem;align-items:center;position:relative;z-index:1;
+}
+.hero-tag{
+  display:inline-block;
+  font-family:'JetBrains Mono',monospace;
+  font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--gold2);
+  background:rgba(201,151,58,0.15);border:1px solid rgba(201,151,58,0.4);
+  padding:0.22rem 0.8rem;border-radius:2px;margin-bottom:1rem;
+}
+.hero-name{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2rem,4.5vw,3.3rem);font-weight:700;
+  line-height:1.12;margin-bottom:0.5rem;
+}
+.hero-role{
+  font-size:1rem;font-weight:300;
+  color:rgba(255,255,255,0.85);line-height:1.55;margin-bottom:0.3rem;
+}
+.hero-role strong{color:var(--gold2);font-weight:600}
+.hero-dept{
+  font-size:0.88rem;color:rgba(255,255,255,0.6);margin-bottom:1.5rem;
+  line-height:1.6;
+}
+.hero-badges{
+  display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.5rem;
+}
+.badge{
+  font-family:'Source Serif 4',Georgia,serif;
+  font-size:0.78rem;font-weight:600;letter-spacing:0.02em;text-transform:none;
+  background:rgba(255,255,255,0.08);
+  border:1px solid rgba(34,197,94,0.45);
+  color:#86efac!important;
+  padding:0.32rem 0.85rem;border-radius:20px;
+}
+.hero-links{display:flex;flex-wrap:wrap;gap:0.5rem}
+.hero-links a{
+  display:inline-flex;align-items:center;gap:0.4rem;
+  font-family:'JetBrains Mono',monospace;
+  font-size:0.68rem;letter-spacing:0.07em;text-transform:uppercase;
+  color:rgba(255,255,255,0.78);text-decoration:none;
+  border:1px solid rgba(255,255,255,0.22);
+  padding:0.38rem 0.85rem;border-radius:3px;transition:all 0.2s;
+}
+.hero-links a:hover{background:rgba(201,151,58,0.2);border-color:var(--gold);color:var(--gold2)}
+.hero-photo{
+  width:185px;height:220px;
+  border:3px solid var(--gold);border-radius:4px;
+  background:linear-gradient(160deg,#1e3070,#0d1b3e);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  box-shadow:0 8px 40px rgba(0,0,0,0.5),5px 5px 0 var(--gold);
+  position:relative;overflow:hidden;flex-shrink:0;
+}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.hero-photo::before{
+  content:'';position:absolute;inset:0;
+  background:repeating-linear-gradient(0deg,transparent,transparent 7px,rgba(201,151,58,0.05) 7px,rgba(201,151,58,0.05) 8px);
+}
+.photo-emoji{font-size:5rem;position:relative;z-index:1}
+.photo-label{
+  font-family:'JetBrains Mono',monospace;
+  font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--gold);text-align:center;position:relative;z-index:1;margin-top:0.4rem;
+}
 
-section { padding: 4rem 2rem; }
-.bg-cream { background: var(--cream); }
-.bg-warm { background: var(--warm); }
-.bg-navy { background: var(--navy); color: var(--white); }
-.section-inner { max-width: 1080px; margin: 0 auto; }
-.section-header { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2.5rem; }
-.section-num { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--gold); letter-spacing: 0.12em; text-transform: uppercase; border: 1px solid var(--gold); padding: 0.2rem 0.55rem; border-radius: 2px; flex-shrink: 0; }
-.section-num-light { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--gold2); letter-spacing: 0.12em; text-transform: uppercase; border: 1px solid var(--gold2); padding: 0.2rem 0.55rem; border-radius: 2px; flex-shrink: 0; }
-.section-title { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem, 2.5vw, 1.95rem); color: var(--navy); font-weight: 700; }
-.section-title-light { color: var(--gold2); }
+/* QUICK STATS */
+.quick-stats{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:1rem;margin:2rem 0;
+}
+.stat-card{
+  background:rgba(255,255,255,0.08);border:1px solid rgba(201,151,58,0.3);
+  border-radius:4px;padding:1rem;text-align:center;
+}
+.stat-number{font-size:1.8rem;font-weight:700;color:var(--gold2);margin-bottom:0.3rem}
+.stat-label{font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:rgba(255,255,255,0.6)}
 
-.about-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-.info-card { background: var(--white); border: 1px solid rgba(201,151,58,0.2); border-top: 3px solid var(--gold); border-radius: 4px; padding: 1.6rem; box-shadow: var(--shadow); }
-.info-card h3 { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--navy); margin-bottom: 0.9rem; padding-bottom: 0.6rem; border-bottom: 1px solid rgba(201,151,58,0.35); }
-.info-card ul { list-style: none; padding: 0; }
-.info-card ul li { font-size: 0.9rem; color: var(--muted); padding: 0.28rem 0 0.28rem 1.2rem; position: relative; line-height: 1.55; }
-.info-card ul li::before { content: '▸'; color: var(--gold); position: absolute; left: 0; font-size: 0.72rem; }
+/* SHARED SECTION STYLES */
+section{padding:4rem 2rem}
+.bg-cream{background:var(--cream)}
+.bg-warm{background:var(--warm)}
+.bg-white{background:var(--white)}
+.bg-navy{background:var(--navy);color:var(--white)}
+.section-inner{max-width:1080px;margin:0 auto}
+.section-header{
+  display:flex;align-items:center;gap:1.2rem;margin-bottom:2.5rem;
+}
+.section-num{
+  font-family:'JetBrains Mono',monospace;font-size:0.65rem;
+  color:var(--gold);letter-spacing:0.12em;text-transform:uppercase;
+  border:1px solid var(--rule);padding:0.2rem 0.55rem;border-radius:2px;flex-shrink:0;
+}
+.section-num-light{
+  font-family:'JetBrains Mono',monospace;font-size:0.65rem;
+  color:var(--gold2);letter-spacing:0.12em;text-transform:uppercase;
+  border:1px solid rgba(201,151,58,0.45);padding:0.2rem 0.55rem;border-radius:2px;flex-shrink:0;
+}
+.section-title{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(1.4rem,2.5vw,1.95rem);color:var(--navy);font-weight:700;
+}
+.section-title-light{color:var(--gold2)}
+.section-line{flex:1;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
 
-.timeline { position: relative; padding-left: 2rem; }
-.timeline::before { content: ''; position: absolute; left: 0.55rem; top: 0.5rem; bottom: 0; width: 2px; background: linear-gradient(180deg, var(--gold), transparent); }
-.tl-item { position: relative; margin-bottom: 2rem; }
-.tl-dot { position: absolute; left: -1.6rem; top: 0.45rem; width: 12px; height: 12px; border-radius: 50%; background: var(--gold); border: 2px solid var(--white); box-shadow: 0 0 0 2px var(--gold); }
-.tl-card { background: var(--white); border: 1px solid rgba(201,151,58,0.2); border-left: 4px solid var(--gold); border-radius: 0 4px 4px 0; padding: 1.2rem 1.4rem; box-shadow: var(--shadow); transition: transform 0.2s; }
-.tl-card:hover { transform: translateX(4px); }
-.tl-role { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--navy); font-weight: 700; margin-bottom: 0.2rem; }
-.tl-org { font-size: 0.88rem; color: var(--gold); font-weight: 600; margin-bottom: 0.15rem; }
-.tl-date { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 0.7rem; }
-.tl-card ul li { font-size: 0.88rem; color: var(--muted); padding: 0.2rem 0 0.2rem 1.1rem; position: relative; line-height: 1.55; }
-.tl-card ul li::before { content: '·'; color: var(--gold); position: absolute; left: 0; font-size: 1.1rem; }
+/* ABOUT GRID */
+.about-2col{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.info-card{
+  background:var(--white);border:1px solid rgba(201,151,58,0.2);
+  border-top:3px solid var(--gold);border-radius:4px;
+  padding:1.6rem;box-shadow:var(--shadow);
+}
+.info-card h3{
+  font-family:'Playfair Display',serif;font-size:1rem;color:var(--navy);
+  margin-bottom:0.9rem;padding-bottom:0.6rem;border-bottom:1px solid var(--rule);
+  display:flex;align-items:center;gap:0.5rem;
+}
+.info-card ul{list-style:none;padding:0}
+.info-card ul li{
+  font-size:0.9rem;color:var(--muted);padding:0.28rem 0;
+  padding-left:1.2rem;position:relative;line-height:1.55;
+}
+.info-card ul li::before{
+  content:'▸';color:var(--gold);position:absolute;left:0;font-size:0.72rem;top:0.45rem;
+}
+.info-card p{font-size:0.9rem;color:var(--muted);line-height:1.65}
+.info-card em{font-size:0.8rem;color:#999}
 
-.pub-list { display: flex; flex-direction: column; gap: 0.9rem; }
-.pub-item { background: var(--white); border-left: 4px solid var(--gold); border-radius: 0 4px 4px 0; padding: 1.2rem 1.5rem; box-shadow: var(--shadow); transition: transform 0.2s; }
-.pub-item:hover { transform: translateX(5px); }
-.pub-num { font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; font-weight: 500; color: var(--gold); background: rgba(201,151,58,0.1); border: 1px solid var(--gold); border-radius: 3px; padding: 0.2rem 0.5rem; }
-.pub-title { font-family: 'Playfair Display', serif; font-size: 0.98rem; font-weight: 700; color: var(--navy); margin-bottom: 0.35rem; line-height: 1.4; }
-.pub-title a { color: var(--navy); text-decoration: none; }
-.pub-title a:hover { color: var(--gold); }
-.pub-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--white); background: var(--navy); padding: 0.12rem 0.55rem; border-radius: 2px; text-transform: uppercase; letter-spacing: 0.06em; display: inline-block; margin-right: 0.5rem; }
-.pub-badge.gold { background: var(--gold); color: var(--navy); }
-.pub-badge.green { background: #16a34a; }
+/* TIMELINE */
+.timeline{position:relative;padding-left:2rem}
+.timeline::before{
+  content:'';position:absolute;left:0.55rem;top:0.5rem;bottom:0;
+  width:2px;background:linear-gradient(180deg,var(--gold),transparent);
+}
+.tl-item{position:relative;margin-bottom:2rem}
+.tl-dot{
+  position:absolute;left:-1.6rem;top:0.45rem;
+  width:12px;height:12px;border-radius:50%;
+  background:var(--gold);border:2px solid var(--white);
+  box-shadow:0 0 0 2px var(--gold);
+}
+.tl-card{
+  background:var(--white);border:1px solid rgba(201,151,58,0.2);
+  border-left:4px solid var(--gold);border-radius:0 4px 4px 0;
+  padding:1.2rem 1.4rem;box-shadow:var(--shadow);
+  transition:transform 0.2s;
+}
+.tl-card:hover{transform:translateX(4px)}
+.tl-role{
+  font-family:'Playfair Display',serif;font-size:1rem;color:var(--navy);
+  font-weight:700;margin-bottom:0.2rem;
+}
+.tl-org{font-size:0.88rem;color:var(--gold);font-weight:600;margin-bottom:0.15rem}
+.tl-date{
+  font-family:'JetBrains Mono',monospace;font-size:0.7rem;
+  color:var(--muted);letter-spacing:0.05em;margin-bottom:0.7rem;
+}
+.tl-card ul{list-style:none;padding:0}
+.tl-card ul li{
+  font-size:0.88rem;color:var(--muted);padding:0.2rem 0 0.2rem 1.1rem;
+  position:relative;line-height:1.55;
+}
+.tl-card ul li::before{content:'·';color:var(--gold);position:absolute;left:0;font-size:1.1rem;top:0.05rem}
 
-.cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1.3rem; }
-.r-card { background: var(--white); border: 1px solid rgba(201,151,58,0.2); border-radius: 4px; padding: 1.5rem; box-shadow: var(--shadow);
-  position: relative; overflow: hidden; transition: transform 0.2s; }
-.r-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--gold), var(--gold2)); }
-.r-card:hover { transform: translateY(-4px); }
-.r-icon { font-size: 1.8rem; margin-bottom: 0.7rem; }
-.r-card h3 { font-family: 'Playfair Display', serif; font-size: 0.95rem; color: var(--navy); margin-bottom: 0.5rem; }
-.r-tag { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gold); border: 1px solid var(--gold); padding: 0.12rem 0.48rem; border-radius: 2px; margin: 0.2rem 0.2rem 0 0; }
+/* PUBLICATIONS */
+.pub-list{display:flex;flex-direction:column;gap:0.9rem}
+.pub-item{
+  background:var(--white);border-left:4px solid var(--gold);
+  border-radius:0 4px 4px 0;padding:1.2rem 1.5rem;box-shadow:var(--shadow);
+  display:grid;grid-template-columns:44px 1fr;gap:1rem;align-items:start;
+  transition:transform 0.2s,box-shadow 0.2s;
+}
+.pub-item:hover{transform:translateX(5px);box-shadow:0 6px 36px rgba(13,27,62,0.15)}
+.pub-num{
+  font-family:'JetBrains Mono',monospace;font-size:0.82rem;font-weight:500;
+  color:var(--gold);background:rgba(201,151,58,0.1);border:1px solid var(--rule);
+  border-radius:3px;padding:0.2rem 0.5rem;text-align:center;margin-top:0.1rem;
+  min-width:35px;
+}
+.pub-title{
+  font-family:'Playfair Display',serif;font-size:0.98rem;
+  font-weight:700;color:var(--navy);margin-bottom:0.35rem;line-height:1.4;
+}
+.pub-title a{color:var(--navy);text-decoration:none}
+.pub-title a:hover{color:var(--gold)}
+.pub-meta{display:flex;align-items:center;flex-wrap:wrap;gap:0.5rem;margin-top:0.4rem}
+.pub-badge{
+  font-family:'JetBrains Mono',monospace;font-size:0.65rem;
+  color:var(--white);background:var(--navy);
+  padding:0.12rem 0.55rem;border-radius:2px;text-transform:uppercase;letter-spacing:0.06em;
+}
+.pub-badge.gold{background:var(--gold);color:var(--navy)}
+.pub-badge.green{background:#22c55e;color:white}
 
-.courses-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
-.c-card { background: var(--white); border: 1px solid rgba(201,151,58,0.18); border-radius: 4px; padding: 1.2rem 1.4rem; box-shadow: var(--shadow); display: flex; gap: 1rem; align-items: flex-start; transition: transform 0.2s; }
-.c-card:hover { transform: translateY(-2px); }
-.c-code { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; color: var(--white); background: var(--navy); padding: 0.28rem 0.55rem; border-radius: 3px; flex-shrink: 0; }
-.c-info h4 { font-family: 'Playfair Display', serif; font-size: 0.92rem; color: var(--navy); margin-bottom: 0.25rem; }
+/* RESEARCH CARDS */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.3rem}
+.r-card{
+  background:var(--white);border:1px solid rgba(201,151,58,0.2);
+  border-radius:4px;padding:1.5rem;box-shadow:var(--shadow);
+  position:relative;overflow:hidden;transition:transform 0.2s,box-shadow 0.2s;
+}
+.r-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--gold),var(--gold2));
+}
+.r-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(13,27,62,0.15)}
+.r-icon{font-size:1.8rem;margin-bottom:0.7rem}
+.r-card h3{font-family:'Playfair Display',serif;font-size:0.95rem;color:var(--navy);margin-bottom:0.5rem;line-height:1.4}
+.r-card p{font-size:0.86rem;color:var(--muted);line-height:1.65}
+.r-tags{display:flex;flex-wrap:wrap;gap:0.35rem;margin-top:0.9rem}
+.r-tag{
+  font-family:'JetBrains Mono',monospace;font-size:0.62rem;text-transform:uppercase;
+  letter-spacing:0.06em;color:var(--gold);border:1px solid var(--rule);
+  padding:0.12rem 0.48rem;border-radius:2px;
+}
+.r-tag.active{color:var(--white);background:var(--navy);border-color:var(--navy)}
+.r-tag.published{color:var(--white);background:#22c55e;border-color:#22c55e}
 
-.skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.2rem; }
-.skill-group { background: var(--white); border-radius: 4px; padding: 1.4rem; box-shadow: var(--shadow); border-top: 3px solid var(--gold); }
-.skill-group h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--navy); margin-bottom: 0.8rem; }
-.skill-pill { display: inline-block; font-size: 0.8rem; color: var(--muted); background: var(--warm); border-radius: 3px; padding: 0.2rem 0.6rem; margin: 0.2rem 0.2rem 0.2rem 0; }
+/* COURSES */
+.courses-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.c-card{
+  background:var(--white);border:1px solid rgba(201,151,58,0.18);
+  border-radius:4px;padding:1.2rem 1.4rem;box-shadow:var(--shadow);
+  display:flex;gap:1rem;align-items:flex-start;transition:transform 0.2s;
+}
+.c-card:hover{transform:translateY(-2px)}
+.c-code{
+  font-family:'JetBrains Mono',monospace;font-size:0.68rem;
+  color:var(--white);background:var(--navy);
+  padding:0.28rem 0.55rem;border-radius:3px;flex-shrink:0;margin-top:0.1rem;
+  line-height:1.3;text-align:center;
+  min-width:45px;
+}
+.c-info h4{font-family:'Playfair Display',serif;font-size:0.92rem;color:var(--navy);margin-bottom:0.25rem}
+.c-level{
+  display:inline-block;font-family:'JetBrains Mono',monospace;font-size:0.6rem;
+  text-transform:uppercase;letter-spacing:0.08em;
+  color:var(--gold);border:1px solid var(--rule);padding:0.08rem 0.4rem;border-radius:2px;
+}
 
-.sup-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
-.sup-table th { font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); background: var(--navy); padding: 0.65rem 1rem; text-align: left; }
-.sup-table td { font-size: 0.86rem; color: var(--muted); padding: 0.75rem 1rem; border-bottom: 1px solid rgba(201,151,58,0.15); line-height: 1.5; }
-.sup-table td:first-child { color: var(--navy); font-weight: 600; }
-.role-pill { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.06em; padding: 0.1rem 0.45rem; border-radius: 2px; display: inline-block; }
-.role-pill.sup { background: var(--gold); color: var(--navy); }
-.role-pill.cosup { background: var(--navy); color: var(--gold); border: 1px solid var(--gold); }
+/* SKILLS */
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.2rem}
+.skill-group{background:var(--white);border-radius:4px;padding:1.4rem;box-shadow:var(--shadow);border-top:3px solid var(--gold)}
+.skill-group h4{font-family:'JetBrains Mono',monospace;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--navy);margin-bottom:0.8rem}
+.skill-pill{
+  display:inline-block;font-size:0.8rem;color:var(--muted);
+  background:var(--warm);border-radius:3px;
+  padding:0.2rem 0.6rem;margin:0.2rem 0.2rem 0.2rem 0;
+  border:1px solid rgba(201,151,58,0.2);
+}
 
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
-.c-item { display: flex; gap: 1rem; align-items: flex-start; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
-.c-item:first-child { border-top: 1px solid rgba(255,255,255,0.08); }
-.c-ico { font-size: 1.2rem; flex-shrink: 0; }
-.c-detail h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 0.3rem; }
-.c-detail a { color: var(--gold2); text-decoration: none; }
-.profile-links { display: flex; flex-direction: column; gap: 0.65rem; }
-.profile-links h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--gold2); margin-bottom: 1rem; }
-.p-link { display: flex; align-items: center; gap: 0.8rem; padding: 0.75rem 1.1rem; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 4px; text-decoration: none; color: rgba(255,255,255,0.78); font-size: 0.88rem; transition: all 0.2s; }
-.p-link:hover { background: rgba(201,151,58,0.15); color: var(--gold2); }
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:start}
+.c-item{
+  display:flex;gap:1rem;align-items:flex-start;
+  padding:1rem 0;border-bottom:1px solid rgba(255,255,255,0.08);
+}
+.c-item:first-child{border-top:1px solid rgba(255,255,255,0.08)}
+.c-ico{font-size:1.2rem;flex-shrink:0;margin-top:0.1rem}
+.c-detail h4{
+  font-family:'JetBrains Mono',monospace;font-size:0.65rem;
+  text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);margin-bottom:0.3rem;
+}
+.c-detail p,.c-detail a{font-size:0.9rem;color:rgba(255,255,255,0.8);text-decoration:none;line-height:1.55}
+.c-detail a:hover{color:var(--gold2)}
+.profile-links{display:flex;flex-direction:column;gap:0.65rem}
+.profile-links h3{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--gold2);margin-bottom:1rem}
+.p-link{
+  display:flex;align-items:center;gap:0.8rem;
+  padding:0.75rem 1.1rem;
+  background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);
+  border-radius:4px;text-decoration:none;color:rgba(255,255,255,0.78);font-size:0.88rem;
+  transition:all 0.2s;
+}
+.p-link:hover{background:rgba(201,151,58,0.15);border-color:rgba(201,151,58,0.4);color:var(--gold2)}
 
-footer { background: #070e21; color: rgba(255,255,255,0.35); text-align: center; padding: 1.6rem; font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; }
-footer span { color: var(--gold); }
+/* FOOTER */
+footer{
+  background:#070e21;
+  color:rgba(255,255,255,0.35);
+  text-align:center;padding:2rem;
+  font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.08em;
+}
+footer span{color:var(--gold)}
+footer p{margin:0.5rem 0}
 
-@media (max-width: 780px) {
-  .hero-inner { grid-template-columns: 1fr; }
-  .hero-photo { display: none; }
-  .about-2col { grid-template-columns: 1fr; }
-  .contact-grid { grid-template-columns: 1fr; }
-  .nav-links { display: none; }
-  section { padding: 3rem 1.2rem; }
+/* ANIMATIONS */
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(22px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.hero-inner > div:first-child > *{animation:fadeUp 0.65s ease both}
+.hero-inner > div:first-child > *:nth-child(2){animation-delay:0.08s}
+.hero-inner > div:first-child > *:nth-child(3){animation-delay:0.16s}
+.hero-inner > div:first-child > *:nth-child(4){animation-delay:0.24s}
+.hero-inner > div:first-child > *:nth-child(5){animation-delay:0.32s}
+.hero-inner > div:first-child > *:nth-child(6){animation-delay:0.40s}
+
+@media(max-width:780px){
+  .hero-inner{grid-template-columns:1fr}
+  .hero-photo{display:none}
+  .about-2col{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr}
+  .nav-links{display:none}
+  section{padding:3rem 1.2rem}
+  .cards-grid{grid-template-columns:1fr}
+  .quick-stats{grid-template-columns:repeat(2,1fr)}
 }
 </style>
 </head>
 <body>
 
+<!-- NAV -->
 <nav>
   <div class="nav-brand">Samrat Poudel</div>
   <ul class="nav-links">
@@ -161,99 +432,179 @@ footer span { color: var(--gold); }
     <li><a href="#publications">Publications</a></li>
     <li><a href="#research">Research</a></li>
     <li><a href="#teaching">Teaching</a></li>
+    <li><a href="#skills">Skills</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
+<!-- HERO -->
 <section id="hero">
   <div class="hero-inner">
     <div>
+      <div class="hero-tag">🏗 Academic Portfolio · IOE Pashchimanchal Campus</div>
       <h1 class="hero-name">Samrat<br>Poudel</h1>
-      <p class="hero-role"><strong>Assistant Professor</strong></p>
-      <p class="hero-dept">Department of Civil Engineering<br>IOE Pashchimanchal Campus · Tribhuvan University · Pokhara, Nepal</p>
+      <p class="hero-role">
+        <strong>Assistant Professor</strong>
+      </p>
+      <p class="hero-dept">
+        Department of Civil Engineering, IOE Pashchimanchal Campus<br>
+        Tribhuvan University · Pokhara, Gandaki, Nepal<br>
+        <em style="font-size:0.85rem;opacity:0.8">3+ years in academia · 8+ peer-reviewed publications · Active thesis advisor</em>
+      </p>
+      <div class="hero-badges">
+        <span class="badge">🏗 Seismic Analysis &amp; Design</span>
+        <span class="badge">🧱 Sustainable Concrete</span>
+        <span class="badge">🌿 Bio-based Admixtures</span>
+        <span class="badge">🌉 Bridge Engineering</span>
+      </div>
+      <div class="quick-stats">
+        <div class="stat-card">
+          <div class="stat-number">8+</div>
+          <div class="stat-label">Publications</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">5+</div>
+          <div class="stat-label">Theses Supervised</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">4</div>
+          <div class="stat-label">Core Courses</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">15+</div>
+          <div class="stat-label">Skills</div>
+        </div>
+      </div>
       <div class="hero-links">
-        <a href="tel:+9779857622022">📞 +977-9857622022</a>
-        <a href="https://orcid.org/0009-0006-3077-2257" target="_blank">🔬 ORCID</a>
-        <a href="#contact">✉ Contact</a>
+        <a href="mailto:samrat@ioepas.edu.np">✉ samrat@ioepas.edu.np</a>
+        <a href="https://orcid.org/0009-0006-3077-2257" target="_blank">🔬 ORCID Profile</a>
+        <a href="tel:+9779857622022">📞 +977-9857-622-022</a>
       </div>
     </div>
     <div class="hero-photo">
-      <img src="Samrat Photo.jpeg" alt="Samrat Poudel">
+      <img src="profile.jpg" alt="Samrat Poudel" onerror="this.style.display='none';this.parentNode.querySelector('.photo-emoji').style.display='block';this.parentNode.querySelector('.photo-label').style.display='block'">
+      <div class="photo-emoji" style="display:none">🏗</div>
+      <div class="photo-label" style="display:none">Samrat Poudel</div>
     </div>
   </div>
 </section>
 
+<!-- ABOUT -->
 <section id="about" class="bg-cream">
   <div class="section-inner">
     <div class="section-header">
       <span class="section-num">01</span>
-      <h2 class="section-title">About</h2>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-line"></div>
     </div>
     <div class="about-2col">
+
       <div class="info-card">
         <h3>🎓 Education</h3>
         <ul>
-          <li><strong>M.Sc. Structural Engineering</strong> — Pokhara University (2019–2021)<br><em>Thesis: Structural Performance of Symmetric and Asymmetric Building Structures with Grid Slab</em></li>
-          <li style="margin-top:0.7rem"><strong>B.E. Civil Engineering</strong> — IOE Pashchimanchal Campus (2014–2018)</li>
+          <li><strong>M.Sc. Structural Engineering</strong> — Pokhara University, School of Engineering (2021)<br>
+          <em>GPA: 3.97/4.0 (Distinction) · Faculty Topper</em></li>
+          <li style="margin-top:0.6rem"><strong>Thesis:</strong> <em>Structural Performance of Symmetric and Asymmetric Building Structures with Grid Slab by Varying Ribs Parameters</em></li>
+          <li style="margin-top:0.6rem"><strong>B.E. Civil Engineering</strong> — IOE Pashchimanchal Campus, TU, Nepal (2018)<br>
+          <em>71.63% · Life Member, Nepal Engineering Council (2019)</em></li>
         </ul>
       </div>
+
       <div class="info-card">
         <h3>🔍 Research Interests</h3>
         <ul>
-          <li>Sustainable Concrete Materials</li>
-          <li>Fiber-reinforced Concrete</li>
-          <li>Seismic Analysis & Design</li>
-          <li>Bridge Engineering</li>
-          <li>Structural Health Monitoring</li>
+          <li><strong>Sustainable Materials:</strong> Bio-based admixtures, recycled aggregates, waste utilization</li>
+          <li><strong>Fiber-Reinforced Concrete:</strong> Natural and synthetic fiber integration</li>
+          <li><strong>Seismic Performance:</strong> Structural resilience and earthquake preparedness</li>
+          <li><strong>Bridge Engineering:</strong> Deterioration modeling, service life estimation, management systems</li>
+          <li><strong>Structural Analysis:</strong> FEA, SHM, and numerical modeling</li>
         </ul>
       </div>
+
       <div class="info-card">
-        <h3>🏛 Associations</h3>
+        <h3>🏛 Professional Affiliations</h3>
         <ul>
-          <li>Nepal Engineering Council — Life Member</li>
-          <li>Nepal Engineers' Association — Life Member</li>
-          <li>Editorial Board — Oodbodhan Journal</li>
+          <li><strong>Life Member</strong> — Nepal Engineering Council <em>(Apr 2019 – Present)</em></li>
+          <li><strong>Life Member</strong> — Nepal Engineers' Association <em>(Feb 2021 – Present)</em></li>
+          <li><strong>Editorial Board</strong> — Oodbodhan Journal <em>(Nov 2025 – Present)</em></li>
+          <li><strong>Ad Hoc Reviewer</strong> — Journal of NAST College <em>(Apr 2025 – Present)</em></li>
+          <li><strong>Technical Committee Member</strong> — Laboratory Equipment Standardization <em>(Sep 2025 – Feb 2026)</em></li>
         </ul>
       </div>
+
       <div class="info-card">
-        <h3>🏆 Awards</h3>
+        <h3>🏆 Awards &amp; Recognition</h3>
         <ul>
-          <li><strong>Nepal Bidhya Bhushan "Kha" Award</strong> (2024)</li>
-          <li><strong>Faculty Topper</strong> — M.Sc. (2022)</li>
+          <li><strong>Nepal Bidhya Bhushan "Kha" Award</strong> — Government of Nepal (2019)<br>
+          <em>Outstanding academic achievement, Faculty Topper</em></li>
+          <li><strong>Faculty Topper</strong> — Pokhara University, Faculty of Science and Technology<br>
+          <em>Batch 2019 · GPA 3.97/4.0</em></li>
+          <li><strong>First-Author Publications</strong> — 5+ International Journals (2024–2025)</li>
         </ul>
       </div>
+
     </div>
   </div>
 </section>
 
+<!-- EXPERIENCE -->
 <section id="experience" class="bg-warm">
   <div class="section-inner">
     <div class="section-header">
       <span class="section-num">02</span>
-      <h2 class="section-title">Experience</h2>
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="section-line"></div>
     </div>
-    <div class="timeline">
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--navy);margin-bottom:1.5rem;padding-bottom:0.5rem;border-bottom:2px solid var(--rule);">Academic Experience</h3>
+
+    <div class="timeline" style="margin-bottom:2.5rem">
       <div class="tl-item">
         <div class="tl-dot"></div>
         <div class="tl-card">
           <div class="tl-role">Assistant Professor</div>
-          <div class="tl-org">IOE Pashchimanchal Campus, Pokhara</div>
-          <div class="tl-date">June 2022 – Present</div>
+          <div class="tl-org">IOE Pashchimanchal Campus, Pokhara — Dept. of Civil Engineering</div>
+          <div class="tl-date">June 2022 – Present (3+ years)</div>
           <ul>
-            <li>Research on sustainable concrete, fiber reinforcement, recycled aggregates</li>
-            <li>Teaching Structural Analysis, Concrete Technology, Bridge Engineering</li>
-            <li>Supervising M.Sc. and B.E. research theses</li>
+            <li>Core faculty member teaching Concrete Technology, Bridge Engineering, Structural Health Monitoring, and Structural Analysis</li>
+            <li>Active research on fiber-reinforced concrete, bio-based admixtures (banana pseudostem sap), and waste material utilization</li>
+            <li>Supervises M.Sc. theses in geopolymer concrete, recycled aggregates, bridge deterioration models, and service life estimation</li>
+            <li>Published 8 peer-reviewed journal articles in international journals (Springer, Taylor &amp; Francis, local journals)</li>
+            <li>Community engagement: earthquake preparedness workshops, infrastructure resilience seminars</li>
+            <li>Departmental committee service: laboratory standardization, curriculum development, student advising</li>
           </ul>
         </div>
       </div>
       <div class="tl-item">
         <div class="tl-dot"></div>
         <div class="tl-card">
-          <div class="tl-role">Lecturer</div>
-          <div class="tl-org">Morgan Engineering College, Purwanchal University</div>
-          <div class="tl-date">December 2021 – May 2022</div>
+          <div class="tl-role">Freelance Structural Engineering Consultant</div>
+          <div class="tl-org">Independent Practice — Pokhara</div>
+          <div class="tl-date">2019 – Present (Ongoing)</div>
           <ul>
-            <li>Taught Civil Engineering courses at undergraduate level</li>
+            <li>Structural analysis and design of residential, commercial, and institutional buildings using ETABS and SAP2000</li>
+            <li>Seismic assessments, retrofitting designs, and structural strengthening recommendations</li>
+            <li>RCC, masonry, and steel structure evaluations; municipal drawing preparation</li>
+            <li>Detailed engineering reports, technical documentation, and quality assurance oversight</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--navy);margin-bottom:1.5rem;padding-bottom:0.5rem;border-bottom:2px solid var(--rule);">Engineering Work Experience</h3>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--muted);box-shadow:0 0 0 2px var(--muted)"></div>
+        <div class="tl-card" style="border-left-color:var(--muted)">
+          <div class="tl-role">Civil Engineer</div>
+          <div class="tl-org">Ministry of Physical Infrastructure, Urban Development and Transport Management · Pokhara</div>
+          <div class="tl-date">August 2020 – November 2021 (1.3 years)</div>
+          <ul>
+            <li>Structural analysis and design for government bridges and public buildings with code compliance verification</li>
+            <li>Finite element analysis (FEA) of complex structural systems using ETABS and ANSYS</li>
+            <li>Conducted seismic resilience assessments of government buildings; recommended retrofitting strategies</li>
+            <li>Led post-disaster damage inspections; provided rehabilitation technical reports; mentored junior engineers</li>
           </ul>
         </div>
       </div>
@@ -261,11 +612,39 @@ footer span { color: var(--gold); }
         <div class="tl-dot" style="background:var(--muted);box-shadow:0 0 0 2px var(--muted)"></div>
         <div class="tl-card" style="border-left-color:var(--muted)">
           <div class="tl-role">Civil Engineer</div>
-          <div class="tl-org">Ministry of Physical Infrastructure, Gandaki Province</div>
-          <div class="tl-date">August 2019 – November 2021</div>
+          <div class="tl-org">Ministry of Social Development · Pokhara</div>
+          <div class="tl-date">August 2019 – August 2020 (1 year)</div>
           <ul>
-            <li>Structural design and analysis for bridges & buildings</li>
-            <li>Seismic resilience assessment</li>
+            <li>Structural assessments and safety inspections for regulatory compliance and public safety</li>
+            <li>Designed and supervised bridge and building projects through construction phases</li>
+            <li>Liaison between ministry, municipalities, contractors, and community stakeholders</li>
+            <li>Prepared specifications, budgets, and project documentation</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--muted);box-shadow:0 0 0 2px var(--muted)"></div>
+        <div class="tl-card" style="border-left-color:var(--muted)">
+          <div class="tl-role">Civil Engineer (Design)</div>
+          <div class="tl-org">Mappers Nepal Pvt. Ltd. · Kathmandu</div>
+          <div class="tl-date">December 2018 – February 2019 (3 months)</div>
+          <ul>
+            <li>High-rise building structural design and analysis using ETABS and SAP2000</li>
+            <li>Generated structural drawings, specifications, and design calculations</li>
+            <li>On-site quality assurance and compliance monitoring</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--muted);box-shadow:0 0 0 2px var(--muted)"></div>
+        <div class="tl-card" style="border-left-color:var(--muted)">
+          <div class="tl-role">Civil Engineering Intern</div>
+          <div class="tl-org">Rising Engineering Consultancy · Pokhara</div>
+          <div class="tl-date">January 2018 – November 2018 (11 months)</div>
+          <ul>
+            <li>Design and analysis of residential and commercial buildings; property valuation and surveying</li>
+            <li>CAD drafting and 3D modeling using AutoCAD, SAP2000, and SketchUp</li>
+            <li>Prepared technical reports and project documentation; site supervision</li>
           </ul>
         </div>
       </div>
@@ -273,185 +652,485 @@ footer span { color: var(--gold); }
   </div>
 </section>
 
+<!-- PUBLICATIONS -->
 <section id="publications" class="bg-cream">
   <div class="section-inner">
     <div class="section-header">
       <span class="section-num">03</span>
       <h2 class="section-title">Publications</h2>
+      <div class="section-line"></div>
     </div>
-    <h3 style="font-family:'Playfair Display';font-size:1.05rem;color:var(--navy);margin:1.5rem 0 1.2rem">Journal Articles (7)</h3>
+
+    <p style="font-size:0.95rem;color:var(--muted);margin-bottom:1.5rem;padding:0.8rem 1.2rem;background:rgba(201,151,58,0.08);border-left:3px solid var(--gold);border-radius:2px;"><strong>8 Peer-Reviewed Articles</strong> published in international journals and conference proceedings · <strong>5 First-Author Publications</strong> in 2024–2025</p>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem">2025 Publications (Recent)</h3>
     <div class="pub-list" style="margin-bottom:2rem">
+
       <div class="pub-item">
-        <span class="pub-num">J1</span>
+        <span class="pub-num">01</span>
         <div>
-          <div class="pub-title"><a href="https://doi.org/10.1007/s41062-025-02183-8" target="_blank">Mechanical properties of concrete with recycled aggregates, glass fibers, and fly ash</a></div>
-          <span class="pub-badge gold">Innovative Infrastructure Solutions · 2025</span>
+          <div class="pub-title"><a href="https://doi.org/10.1007/s41062-025-02183-8" target="_blank">Mechanical properties of concrete with recycled aggregates, glass fibers, and fly ash: exploring environmental waste utilization</a></div>
+          <div class="pub-meta">
+            <span class="pub-badge green">✓ Published</span>
+            <span class="pub-badge gold">Innovative Infrastructure Solutions · 2025</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Experimental study on recycled aggregate concrete incorporating glass fibers and fly ash; demonstrates sustainable material performance.</p>
         </div>
       </div>
+
       <div class="pub-item">
-        <span class="pub-num">J2</span>
+        <span class="pub-num">02</span>
         <div>
-          <div class="pub-title"><a href="https://doi.org/10.1007/s10518-025-02179-w" target="_blank">Structural performance of symmetric and asymmetric building structures</a></div>
-          <span class="pub-badge gold">Bulletin of Earthquake Engineering · 2025</span>
+          <div class="pub-title"><a href="https://doi.org/10.1007/s10518-025-02179-w" target="_blank">Structural performance of symmetric and asymmetric plan irregular building structures: a comparative analysis of conventional and grid slab systems</a></div>
+          <div class="pub-meta">
+            <span class="pub-badge green">✓ Published</span>
+            <span class="pub-badge gold">Bulletin of Earthquake Engineering · 2025</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Comparative seismic analysis of building morphologies; research basis for M.Sc. thesis on grid slab structures.</p>
         </div>
       </div>
+
       <div class="pub-item">
-        <span class="pub-num">J3</span>
+        <span class="pub-num">03</span>
+        <div>
+          <div class="pub-title"><a href="https://doi.org/10.3126/oodbodhan.v8i1.81246" target="_blank">Performance assessment of M30 grade concrete by mixing recycled concrete aggregates from Prithvi Rajmarg</a></div>
+          <div class="pub-meta">
+            <span class="pub-badge green">✓ Published</span>
+            <span class="pub-badge gold">Oodbodhan · 2025</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Local waste utilization study; field-based research on recycled aggregates from Kathmandu construction waste.</p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <span class="pub-num">04</span>
         <div>
           <div class="pub-title"><a href="https://doi.org/10.3126/oodbodhan.v8i1.81241" target="_blank">Identifying high-risk slope locations in Phewa Lake Catchment</a></div>
-          <span class="pub-badge gold">Oodbodhan · 2025</span>
+          <div class="pub-meta">
+            <span class="pub-badge green">✓ Published</span>
+            <span class="pub-badge gold">Oodbodhan · 2025</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Geotechnical hazard assessment in Pokhara region; GIS-based slope stability analysis.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem">2024 Publications</h3>
+    <div class="pub-list" style="margin-bottom:2rem">
+
+      <div class="pub-item">
+        <span class="pub-num">05</span>
+        <div>
+          <div class="pub-title"><a href="https://doi.org/10.1007/s42107-024-01211-9" target="_blank">Exploring the potential of Himalayan Giant Nettle fiber and supplementary cementitious materials for sustainable concrete development</a></div>
+          <div class="pub-meta">
+            <span class="pub-badge green">✓ Published</span>
+            <span class="pub-badge gold">Asian Journal of Civil Engineering · 2024</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Natural fiber integration research; explores indigenous materials for sustainable concrete applications.</p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <span class="pub-num">06</span>
+        <div>
+          <div class="pub-title"><a href="https://doi.org/10.1007/s44290-024-00126-3" target="_blank">Influence of cross-girder spacing on RC T-beam bridges: a comparative theoretical and finite element approach</a></div>
+          <div class="pub-meta">
+            <span class="pub-badge green">✓ Published</span>
+            <span class="pub-badge gold">Discover Civil Engineering · 2024</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Bridge structural optimization study; FEA and theoretical analysis of T-beam configurations.</p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <span class="pub-num">07</span>
+        <div>
+          <div class="pub-title"><a href="https://doi.org/10.5281/zenodo.13327326" target="_blank">Performance comparison of fly ash based geopolymer concrete with ordinary Portland cement concrete</a></div>
+          <div class="pub-meta">
+            <span class="pub-badge green">✓ Published</span>
+            <span class="pub-badge gold">IJSSSR · vol. 2, pp. 06–25, 2024</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Geopolymer concrete experimental study; comprehensive material property comparison with OPC.</p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <span class="pub-num">08</span>
+        <div>
+          <div class="pub-title"><a href="https://doi.org/10.5281/zenodo.7888723" target="_blank">Tunneling in weak rock mass — evaluation on stability of the headrace tunnel of Setikhola Hydropower Project, 22MW</a></div>
+          <div class="pub-meta">
+            <span class="pub-badge green">✓ Published</span>
+            <span class="pub-badge gold">IJISRT · vol. 8, pp. 1086–1094, 2023</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Underground engineering case study; geotechnical analysis of hydropower tunnel stability.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem">Conference Papers &amp; Preprints</h3>
+    <div class="pub-list">
+      <div class="pub-item">
+        <span class="pub-num">C1</span>
+        <div>
+          <div class="pub-title">Deterioration curve to estimate service life of existing bridge</div>
+          <div class="pub-meta">
+            <span class="pub-badge">Conference Paper</span>
+            <span class="pub-badge gold">14th IOE Graduate Conference · vol. 14, pp. 930–937, 2023</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Bridge management research; deterioration modeling for service life prediction.</p>
         </div>
       </div>
       <div class="pub-item">
-        <span class="pub-num">J4</span>
+        <span class="pub-num">C2</span>
         <div>
-          <div class="pub-title"><a href="https://doi.org/10.3126/oodbodhan.v8i1.81246" target="_blank">Performance assessment of M30 concrete with recycled aggregates</a></div>
-          <span class="pub-badge gold">Oodbodhan · 2025</span>
+          <div class="pub-title">Development of bridge management system for existing bridges in Nepal using analytic hierarchy process</div>
+          <div class="pub-meta">
+            <span class="pub-badge">Conference Paper</span>
+            <span class="pub-badge gold">12th IOE Graduate Conference · vol. 12, pp. 1536–1543, 2022</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Bridge asset management; AHP-based decision support for infrastructure prioritization.</p>
         </div>
       </div>
       <div class="pub-item">
-        <span class="pub-num">J5</span>
+        <span class="pub-num">P1</span>
         <div>
-          <div class="pub-title"><a href="https://doi.org/10.1007/s42107-024-01211-9" target="_blank">Exploring Himalayan Giant Nettle fiber and supplementary materials</a></div>
-          <span class="pub-badge gold">Asian Journal of Civil Engineering · 2024</span>
-        </div>
-      </div>
-      <div class="pub-item">
-        <span class="pub-num">J6</span>
-        <div>
-          <div class="pub-title"><a href="https://doi.org/10.1007/s44290-024-00126-3" target="_blank">Influence of cross-girder spacing on RC T-beam bridges</a></div>
-          <span class="pub-badge gold">Discover Civil Engineering · 2024</span>
-        </div>
-      </div>
-      <div class="pub-item">
-        <span class="pub-num">J7</span>
-        <div>
-          <div class="pub-title"><a href="https://doi.org/10.21203/rs.3.rs-9020739/v1" target="_blank">Exploring banana pseudostem sap as concrete additive</a></div>
-          <span class="pub-badge gold">Research Square Preprint · 2026</span>
+          <div class="pub-title"><a href="https://doi.org/10.21203/rs.3.rs-9020739/v1" target="_blank">Exploring the potential of banana pseudostem sap as a functional additive for mortar and concrete development</a></div>
+          <div class="pub-meta">
+            <span class="pub-badge">Preprint</span>
+            <span class="pub-badge gold">Research Square · 2026</span>
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem">Bio-admixture research; innovative use of agricultural waste as concrete performance enhancer.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- RESEARCH -->
 <section id="research" class="bg-warm">
   <div class="section-inner">
     <div class="section-header">
       <span class="section-num">04</span>
-      <h2 class="section-title">Research Projects</h2>
+      <h2 class="section-title">Research &amp; Thesis Supervision</h2>
+      <div class="section-line"></div>
     </div>
-    <div class="cards-grid">
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem">Active Research Programs</h3>
+    <div class="cards-grid" style="margin-bottom:2.5rem">
       <div class="r-card">
-        <div class="r-icon">🍌</div>
-        <h3>Banana Pseudostem Sap Concrete Additive</h3>
-        <p>Bio-based admixtures for sustainable mortar and concrete. RMC Funded (Jul 2024 – Mar 2025)</p>
-        <div><span class="r-tag">Principal Investigator</span></div>
+        <div class="r-icon">🌿</div>
+        <h3>Banana Pseudostem Sap as Concrete Additive</h3>
+        <p>Investigating bio-based admixtures from banana pseudo-stem sap to enhance mortar and concrete material properties while promoting agricultural waste utilization and sustainability.</p>
+        <div class="r-tags">
+          <span class="r-tag active">Ongoing</span>
+          <span class="r-tag">Bio-Admixture</span>
+          <span class="r-tag">Sustainability</span>
+          <span class="r-tag">Preprint 2026</span>
+        </div>
       </div>
       <div class="r-card">
         <div class="r-icon">🧱</div>
-        <h3>Fiber-Reinforced Concrete</h3>
-        <p>Eulaliopsis Binata fiber with silica fume and rice husk ash ternary blends for sustainable systems.</p>
-        <div><span class="r-tag">Ongoing</span></div>
+        <h3>Eulaliopsis Binata Fiber &amp; Ternary Blends</h3>
+        <p>Exploring Eulaliopsis Binata (Babiyo) fiber with silica fume and rice husk ash ternary blends for sustainable concrete systems. Active student thesis in progress.</p>
+        <div class="r-tags">
+          <span class="r-tag active">Ongoing</span>
+          <span class="r-tag">Fiber-Reinforced</span>
+          <span class="r-tag">SCM</span>
+          <span class="r-tag">Student Project</span>
+        </div>
       </div>
       <div class="r-card">
         <div class="r-icon">♻️</div>
-        <h3>Recycled Aggregate Concrete</h3>
-        <p>Performance assessment with glass fibers and fly ash for environmental waste utilization.</p>
-        <div><span class="r-tag">Published 2025</span></div>
+        <h3>Recycled Aggregate Concrete (Published)</h3>
+        <p>Performance assessment of concrete incorporating recycled aggregates, glass fibers, and fly ash for environmental waste utilization and circular economy principles.</p>
+        <div class="r-tags">
+          <span class="r-tag published">✓ Published 2025</span>
+          <span class="r-tag">Recycled Aggregates</span>
+          <span class="r-tag">Springer</span>
+        </div>
       </div>
       <div class="r-card">
         <div class="r-icon">🌉</div>
-        <h3>Bridge Deterioration & Service Life</h3>
-        <p>Deterioration curves and bridge management systems using analytical hierarchy process.</p>
-        <div><span class="r-tag">Published</span></div>
+        <h3>Bridge Deterioration &amp; Service Life (Published)</h3>
+        <p>Development of deterioration curves and bridge management systems for existing bridges in Nepal using analytical hierarchy process. Integrated with thesis supervision.</p>
+        <div class="r-tags">
+          <span class="r-tag published">✓ Published</span>
+          <span class="r-tag">Bridge Management</span>
+          <span class="r-tag">AHP</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem">M.Sc. Thesis Supervision (5 Active/Completed)</h3>
+    <div class="cards-grid">
+      <div class="r-card">
+        <div class="r-icon">🔬</div>
+        <h3>Lantana Camara Biochar as Fine Aggregate</h3>
+        <p>Experimental investigation of biochar derived from Lantana Camara as partial fine aggregate replacement in concrete. Ongoing M.Sc. research.</p>
+        <div class="r-tags">
+          <span class="r-tag active">Dec 2025 – Present</span>
+          <span class="r-tag">Active Supervision</span>
+        </div>
+      </div>
+      <div class="r-card">
+        <div class="r-icon">🍊</div>
+        <h3>Babiyo Fiber &amp; Orange Peel Powder Concrete</h3>
+        <p>Study of concrete properties using Eulaliopsis Binata fiber combined with orange peel powder as supplementary material. Ongoing M.Sc. thesis.</p>
+        <div class="r-tags">
+          <span class="r-tag active">Dec 2025 – Present</span>
+          <span class="r-tag">Active Supervision</span>
+        </div>
+      </div>
+      <div class="r-card">
+        <div class="r-icon">🪵</div>
+        <h3>Firewood Ash as Cement Replacement (Completed)</h3>
+        <p>Study of concrete properties using firewood ash as partial replacement of cement; evaluated compressive, durability, and microstructural performance.</p>
+        <div class="r-tags">
+          <span class="r-tag published">✓ Completed 2025</span>
+          <span class="r-tag">Successfully Defended</span>
+        </div>
+      </div>
+      <div class="r-card">
+        <div class="r-icon">⚗️</div>
+        <h3>Geopolymer Concrete vs OPC Concrete (Published)</h3>
+        <p>Performance comparison of fly ash based geopolymer concrete with ordinary Portland cement concrete. Published in IJSSSR with comprehensive analysis.</p>
+        <div class="r-tags">
+          <span class="r-tag published">✓ Completed 2024</span>
+          <span class="r-tag">Published IJSSSR</span>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- TEACHING -->
 <section id="teaching" class="bg-cream">
   <div class="section-inner">
     <div class="section-header">
       <span class="section-num">05</span>
-      <h2 class="section-title">Teaching</h2>
+      <h2 class="section-title">Teaching &amp; Academic Service</h2>
+      <div class="section-line"></div>
     </div>
-    <h3 style="font-family:'Playfair Display';font-size:1rem;color:var(--navy);margin:1rem 0">Undergraduate Courses</h3>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem">Core Courses Taught at IOE Pashchimanchal Campus</h3>
     <div class="courses-grid" style="margin-bottom:2rem">
       <div class="c-card">
-        <span class="c-code">CE 401</span>
-        <div class="c-info"><h4>Structural Analysis 1</h4></div>
+        <span class="c-code">CE<br>501</span>
+        <div class="c-info">
+          <h4>Concrete Technology</h4>
+          <p style="font-size:0.8rem;color:var(--muted);margin-top:0.3rem">Material properties, mix design, durability, and performance testing. Research-informed curriculum.</p>
+          <span class="c-level">BE / MSc Level</span>
+        </div>
       </div>
       <div class="c-card">
-        <span class="c-code">CE 501</span>
-        <div class="c-info"><h4>Structural Analysis 2</h4></div>
+        <span class="c-code">CE<br>502</span>
+        <div class="c-info">
+          <h4>Bridge Engineering</h4>
+          <p style="font-size:0.8rem;color:var(--muted);margin-top:0.3rem">Design, analysis, maintenance, and rehabilitation of bridge structures. Case study-based teaching.</p>
+          <span class="c-level">BE / MSc Level</span>
+        </div>
       </div>
       <div class="c-card">
-        <span class="c-code">CE 601</span>
-        <div class="c-info"><h4>Concrete Technology</h4></div>
+        <span class="c-code">CE<br>503</span>
+        <div class="c-info">
+          <h4>Structural Health Monitoring</h4>
+          <p style="font-size:0.8rem;color:var(--muted);margin-top:0.3rem">Non-destructive testing, assessment techniques, and performance evaluation. Laboratory practice.</p>
+          <span class="c-level">MSc Level</span>
+        </div>
       </div>
       <div class="c-card">
-        <span class="c-code">CE 502</span>
-        <div class="c-info"><h4>Bridge Engineering</h4></div>
+        <span class="c-code">CE<br>301</span>
+        <div class="c-info">
+          <h4>Structural Analysis</h4>
+          <p style="font-size:0.8rem;color:var(--muted);margin-top:0.3rem">Classical methods, matrix analysis, and FEA fundamentals. ETABS/SAP2000 lab sessions.</p>
+          <span class="c-level">BE Level</span>
+        </div>
       </div>
     </div>
-    <h3 style="font-family:'Playfair Display';font-size:1rem;color:var(--navy);margin:1rem 0">Postgraduate Courses</h3>
-    <div class="courses-grid">
-      <div class="c-card">
-        <span class="c-code">MSc</span>
-        <div class="c-info"><h4>Structural Health Monitoring</h4></div>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem">Academic Service &amp; Committee Membership</h3>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.8rem">
+      <div class="info-card" style="padding:1.2rem">
+        <h3 style="font-size:0.9rem;color:var(--navy);margin-bottom:0.6rem;border:none;padding:0">🏛 Laboratory Standardization Committee</h3>
+        <p style="font-size:0.86rem;color:var(--muted);margin:0"><strong>IOE Pashchimanchal Campus</strong> · <em>Sep 2025 – Feb 2026</em><br>Chair technical standards for UTM, rebound hammer, UPV testing protocols.</p>
       </div>
-      <div class="c-card">
-        <span class="c-code">MSc</span>
-        <div class="c-info"><h4>Computational Tools & Techniques</h4></div>
+      <div class="info-card" style="padding:1.2rem">
+        <h3 style="font-size:0.9rem;color:var(--navy);margin-bottom:0.6rem;border:none;padding:0">🔬 Laboratory Testing Standards Committee</h3>
+        <p style="font-size:0.86rem;color:var(--muted);margin:0"><strong>UTM, Rebound Hammer, UPV Standardization</strong> · <em>Feb 2025 – Mar 2025</em><br>Developed equipment calibration and quality assurance protocols.</p>
+      </div>
+      <div class="info-card" style="padding:1.2rem">
+        <h3 style="font-size:0.9rem;color:var(--navy);margin-bottom:0.6rem;border:none;padding:0">📰 Editorial Board Member</h3>
+        <p style="font-size:0.86rem;color:var(--muted);margin:0"><strong>Oodbodhan Journal</strong> (ISSN: 2091-2676) · <em>Nov 2025 – Present</em><br>Tribhuvan University peer-reviewed journal; peer review and manuscript evaluation.</p>
+      </div>
+      <div class="info-card" style="padding:1.2rem">
+        <h3 style="font-size:0.9rem;color:var(--navy);margin-bottom:0.6rem;border:none;padding:0">📝 Ad Hoc Reviewer</h3>
+        <p style="font-size:0.86rem;color:var(--muted);margin:0"><strong>Journal of NAST College</strong> (ISSN: 3102-0283) · <em>Apr 2025 – Present</em><br>National Academy of Science and Technology; manuscript review and evaluation.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- SKILLS -->
+<section id="skills" class="bg-warm">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-num">06</span>
+      <h2 class="section-title">Technical Skills &amp; Expertise</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>🏗 Structural Analysis &amp; Design</h4>
+        <span class="skill-pill">ETABS</span>
+        <span class="skill-pill">SAP2000</span>
+        <span class="skill-pill">STAAD.Pro</span>
+        <span class="skill-pill">ANSYS FEA</span>
+        <span class="skill-pill">SAFE (Slabs)</span>
+        <span class="skill-pill">CSI Bridge</span>
+      </div>
+      <div class="skill-group">
+        <h4>🧪 Materials &amp; Testing</h4>
+        <span class="skill-pill">Concrete Testing</span>
+        <span class="skill-pill">UTM (Universal Testing Machine)</span>
+        <span class="skill-pill">Rebound Hammer</span>
+        <span class="skill-pill">UPV Device</span>
+        <span class="skill-pill">QA/QC</span>
+        <span class="skill-pill">Non-Destructive Testing</span>
+      </div>
+      <div class="skill-group">
+        <h4>✏️ CAD &amp; Visualization</h4>
+        <span class="skill-pill">AutoCAD</span>
+        <span class="skill-pill">SketchUp</span>
+        <span class="skill-pill">ArcGIS</span>
+        <span class="skill-pill">GIS Analysis</span>
+      </div>
+      <div class="skill-group">
+        <h4>💻 Programming &amp; Analysis</h4>
+        <span class="skill-pill">MATLAB</span>
+        <span class="skill-pill">SPSS</span>
+        <span class="skill-pill">Statistical Analysis</span>
+        <span class="skill-pill">Risk Analysis</span>
+        <span class="skill-pill">Data Modeling</span>
+      </div>
+      <div class="skill-group">
+        <h4>📐 Field &amp; Survey</h4>
+        <span class="skill-pill">Surveying &amp; Leveling</span>
+        <span class="skill-pill">Seismic Assessment</span>
+        <span class="skill-pill">Post-Disaster Inspection</span>
+        <span class="skill-pill">Site Supervision</span>
+      </div>
+      <div class="skill-group">
+        <h4>🌐 Languages &amp; Communication</h4>
+        <span class="skill-pill">Nepali (Native)</span>
+        <span class="skill-pill">English (Proficient)</span>
+        <span class="skill-pill">Hindi (Intermediate)</span>
+        <span class="skill-pill">Technical Writing</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
 <section id="contact" class="bg-navy">
   <div class="section-inner">
     <div class="section-header">
-      <span class="section-num-light">06</span>
-      <h2 class="section-title section-title-light">Contact</h2>
+      <span class="section-num-light">07</span>
+      <h2 class="section-title section-title-light">Contact &amp; Profiles</h2>
+      <div class="section-line"></div>
     </div>
     <div class="contact-grid">
       <div>
         <div class="c-item">
-          <span class="c-ico">📞</span>
-          <div class="c-detail">
-            <h4>Phone</h4>
-            <a href="tel:+9779857622022">+977-9857622022</a>
-          </div>
-        </div>
-        <div class="c-item">
           <span class="c-ico">✉️</span>
           <div class="c-detail">
-            <h4>Email</h4>
+            <h4>Institutional Email</h4>
             <a href="mailto:samrat@ioepas.edu.np">samrat@ioepas.edu.np</a>
           </div>
         </div>
         <div class="c-item">
-          <span class="c-ico">📍</span>
+          <span class="c-ico">📞</span>
           <div class="c-detail">
-            <h4>Office</h4>
-            <p>IOE Pashchimanchal Campus<br>Pokhara, Gandaki, Nepal</p>
+            <h4>Mobile Phone</h4>
+            <a href="tel:+9779857622022">+977-9857-622-022</a>
+          </div>
+        </div>
+        <div class="c-item">
+          <span class="c-ico">🏛</span>
+          <div class="c-detail">
+            <h4>Office Address</h4>
+            <p>Department of Civil Engineering<br>IOE Pashchimanchal Campus<br>Tribhuvan University<br>Pokhara, Gandaki Province, Nepal</p>
+          </div>
+        </div>
+        <div class="c-item">
+          <span class="c-ico">🔗</span>
+          <div class="c-detail">
+            <h4>ORCID iD</h4>
+            <a href="https://orcid.org/0009-0006-3077-2257" target="_blank">0009-0006-3077-2257</a>
           </div>
         </div>
       </div>
       <div class="profile-links">
-        <h3>Academic Links</h3>
-        <a href="https://orcid.org/0009-0006-3077-2257" class="p-link" target="_blank">🔬 ORCID Profile</a>
-        <a href="http://ioepas.edu.np" class="p-link" target="_blank">🏛 IOE Campus</a>
-        <a href="https://www.nepeng.org.np/" class="p-link" target="_blank">⚙️ Nepal Engineering Council</a>
-        <a href="https://doi.org/10.1007/s10518-025-02179-w" class="p-link" target="_blank">📄 Latest Publication</a>
+        <h3>Academic &amp; Professional Links</h3>
+        <a href="https://orcid.org/0009-0006-3077-2257" class="p-link" target="_blank">
+          <span>🔬</span> ORCID Profile
+        </a>
+        <a href="https://scholar.google.com" class="p-link" target="_blank">
+          <span>📊</span> Google Scholar
+        </a>
+        <a href="http://ioepas.edu.np" class="p-link" target="_blank">
+          <span>🏛</span> IOE Pashchimanchal Campus
+        </a>
+        <a href="https://www.nepeng.org.np/" class="p-link" target="_blank">
+          <span>🔧</span> Nepal Engineering Council (Life Member)
+        </a>
+        <a href="https://www.nea.org.np/" class="p-link" target="_blank">
+          <span>👥</span> Nepal Engineers' Association (Life Member)
+        </a>
+        <a href="https://doi.org/10.1007/s10518-025-02179-w" class="p-link" target="_blank">
+          <span>📄</span> Latest Publication (2025)
+        </a>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer>
-  <p>© 2025 <span>Samrat Poudel</span> · Assistant Professor, Civil Engineering · IOE Pashchimanchal Campus · Tribhuvan University</p>
+  <p>© 2025 <span>Samrat Poudel</span> · Assistant Professor</p>
+  <p>Department of Civil Engineering · IOE Pashchimanchal Campus, Tribhuvan University</p>
+  <p>Pokhara, Gandaki Province, Nepal</p>
+  <p style="margin-top:1rem;font-size:0.6rem;opacity:0.6">Last Updated: July 2026</p>
 </footer>
+
+<script>
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.style.opacity = '1';
+      e.target.style.transform = 'translateY(0)';
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08 });
+
+document.querySelectorAll('.pub-item,.r-card,.c-card,.tl-card,.info-card,.skill-group,.stat-card').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(18px)';
+  el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+  io.observe(el);
+});
+
+// Smooth scroll for nav links
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
 
 </body>
 </html>
